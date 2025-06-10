@@ -77,9 +77,9 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "chris~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, CHRISSPARK-XMD User!* 👋🏻
+                        let desc = `*Hey there, LORDBLAST-XD User!* 👋🏻
 
-Thanks for using *Chrisspark-XMD* — your session has been successfully created!
+Thanks for using *Lordblast-XD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -92,19 +92,19 @@ https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Xchristech/CHRISSPARK-XMD
+https://github.com/lordblast2/LORDBLAST-XD
 
 ——————
 
-> *© Powered by Chris Gaaju*
+> *© Powered by Omega lord*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/g72e6z.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t",
+thumbnailUrl: "https://files.catbox.moe/g72e6z.jpg", 
+sourceUrl: "https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t", 
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, CHRISM-XD User!* 👋🏻
+                            let desc = `Hey there, LORDBLAST-XD User!* 👋🏻
 
-Thanks for using *CHRISSPARK-XMD* — your session has been successfully created!
+Thanks for using *LORDBLAST-XD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -132,7 +132,7 @@ https://github.com/Xchristech/CHRISM-XD
 
 ——————
 
-> *© Powered by Chris Gaaju*
+> *© Powered by Omega lord*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
@@ -168,7 +168,7 @@ showAdAttribution: true
             }
         }
     }
-   return await CHRISSPARK_XMD_PAIR_CODE();
+   return await LORDBLAST_XD_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
